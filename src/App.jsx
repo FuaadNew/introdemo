@@ -7,10 +7,11 @@ const Hello = () => {
 }
 
 const App = () => {
+  const friends = [ 'Peter', 'Maya']
+
   return (
     <div>
-      <h1>Greetings</h1>
-      <Hello />
+      <p>{friends}</p>
     </div>
   )
 }
